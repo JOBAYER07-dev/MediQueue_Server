@@ -145,7 +145,8 @@ async function run() {
       res.send(result);
     });
   } catch (err) {
-    console.error(err);
+    // Log any database connection errors
+    console.error("Database connection error:", err);
   }
 }
 
