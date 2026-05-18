@@ -153,7 +153,7 @@ async function run() {
 run();
 
 app.get('/', (req, res) => {
-  res.send('MediQueue Server Running');
+  res.send('MediQueue Server Running ✅');
 });
 
 app.listen(port, () => {
